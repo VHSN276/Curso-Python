@@ -1,7 +1,7 @@
-nome = 'Vitor'
-sobrenome = 'Henrique'
+nome = 'Vitor Henrique'
+sobrenome = 'Silva'
 idade = 19
-ano_nascimento = '02/07/2006'
+ano_nascimento = 2025 - idade
 maior_idade = idade>=18
 altura_metros = 1.78
 
