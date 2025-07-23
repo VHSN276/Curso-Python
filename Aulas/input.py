@@ -1,0 +1,5 @@
+nome = input('Qual o seu nome: ')
+numero1 = input("Digite um numero: ")
+numero2 = input("Digite outro numero: ")
+soma = float(numero1) + float(numero2)
+print(f'O seu nome é: {nome}\nA soma dos dois numeros é {soma}')
