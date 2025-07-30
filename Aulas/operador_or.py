@@ -1,5 +1,5 @@
 entrada = input("Escolha uma opção:\n[E]Entrar\n[S]Sair\n")
-if entrada == 'E':
+if entrada == 'E' or entrada == 'e':
     senha_permitida = "123456"
     user_permitido = "vitor"
     senha = input("Senha: ")
@@ -8,7 +8,7 @@ if entrada == 'E':
         print("Login realizado com sucesso.\nEntrando no sistema...")
     else:
         print("Login incorreto")
-elif entrada == 'S':
+elif entrada == 'S' or entrada == 's':
     print("Saindo do Sistema...")
 else:
     print("Opção Incorreta. Saindo do Sistema...")
